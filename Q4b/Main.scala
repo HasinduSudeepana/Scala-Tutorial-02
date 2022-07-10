@@ -1,22 +1,22 @@
 object Main {
-  def main(args: Array[String]): Unit = {
+  def main(args: Array[String]): Unit = {   
     println("The highest profit is:"+profit(35))
   }
 
-  def attendance(price:Int):Int={
+  def attendance(price:Int):Int={     //this is the formula of calculate the attendance
     return 120 +(15-price)/5*20
   }
 
-  def revenue(price:Int):Int={
-    return attendance(price)*price
+  def revenue(price:Int):Int={   
+    return attendance(price)*price   //can be calculate the revenue using attendance*ticket price
   }
 
-  def cost (price:Int):Int={
+  def cost (price:Int):Int={     //can be calculate the cost using owner cost + attendance cost
     return 500+ 3*attendance(price)
   }
 
   def profit(price:Int):Int={
-    return revenue(price)-cost(price)
+    return revenue(price)-cost(price)  //can be calculate using revenue - cost
   }
 }
 
