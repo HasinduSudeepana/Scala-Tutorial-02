@@ -1,0 +1,14 @@
+-------Difference Between JAVA vs SCALA
+
+
+---1.JAVA---
+	1.Java is a general-purpose object oriented language.
+	2.Java is more readable
+	3.Java does not support operator overloading
+	4.In Java the code written in long form
+
+---2.SCALA---
+	1.Scala is a mixture of both oriented and functional proggramming
+	2.Scala is less readable due to nested code
+	3.Scala support operator overloading
+	4.In Scala the code is written is compact form
