@@ -7,7 +7,7 @@ object Main {
     val k:Float =4.3f
     val g:Float =5.3f
   //a
-    b-=1
+    b-=1  //--b
     println("Value is:"+(b*a+c*d))  //24
     d-=1
   //b
