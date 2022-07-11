@@ -1,6 +1,6 @@
 object Main {
   def main(args: Array[String]): Unit = {   
-    println("The highest profit is:"+profit(35))
+    println("The highest profit is:"+profit(25))
   }
 
   def attendance(price:Int):Int={     //this is the formula of calculate the attendance
